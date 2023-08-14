@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const Container = styled.header`
-    width: 98%;
+    width: 100%;
     height: 70px;
     padding: 5px;
 
@@ -12,24 +12,12 @@ const Container = styled.header`
     top: 0px;
     z-index: 1;
     background-color: #ED8936;
-    p{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    h1{
         color: #ffffff;
     }
 
-
 `
-const ArtCiclo = styled.div`
-    color: #ffffff;
-    font-size: 26px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-
-`
-
-
-
 export {
-    Container,
-    ArtCiclo
+    Container
 }

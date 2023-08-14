@@ -20,7 +20,7 @@ export default function LoginPage() {
         promise.then((res) => {
             localStorage.setItem("token", res.data.token)
             setToken(res.data.token)
-            navigate("/home")
+            navigate("/miaudelos")
         })
         promise.catch((res) => {
             console.log(res)

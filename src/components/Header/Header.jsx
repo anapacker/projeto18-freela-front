@@ -1,11 +1,10 @@
-import { ArtCiclo, Container } from "./style"
+import { Container } from "./style";
 
 export default function Header() {
     return (
         <header>
             <Container>
-                <ArtCiclo>ArtCiclo</ArtCiclo>
-                <p>Entrar</p>
+                <h1>Miau Miau</h1>
             </Container>
 
         </header>
